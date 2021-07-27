@@ -115,7 +115,8 @@ p {
 /*-----------  Qualification -----------*/
 #qualification {
   background-color: #eff8ff;
-  padding: 7% 1%;
+  padding: 10% 2%;
+  line-height: 3;
 }
 
 .qualification-title {
@@ -123,7 +124,8 @@ p {
 }
 
 .edu-work {
-  padding-right: 50px;
+  padding-right: 5%;
+  padding-bottom: 10%;
 }
 
 /*-----------  Projects -----------*/
