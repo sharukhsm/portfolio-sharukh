@@ -153,9 +153,6 @@ p {
 .contact-title {
   padding-bottom: 3%;
 }
-.contact-form {
-  width: 12%;
-}
 
 /*-----------  Media Queries ----------- */
 @media (max-width: 1028px) {
