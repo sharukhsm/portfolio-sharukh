@@ -12,6 +12,10 @@ h6 {
   font-family: "Montserrat-Bold", sans-serif;
 }
 
+p {
+  font-size: 1.1rem;
+}
+
 /* Containers */
 .container-fluid {
   padding: 7% 15%;
@@ -117,6 +121,7 @@ p {
   background-color: #eff8ff;
   padding: 10% 2%;
   line-height: 3;
+  font-size: 1.1rem;
 }
 
 .qualification-title {
