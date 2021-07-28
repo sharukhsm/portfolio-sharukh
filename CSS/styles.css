@@ -24,7 +24,7 @@ p {
 /* Sections */
 .colored-section {
   background-color: #ff4c68;
-  /* color: #fff; */
+  color: #fff;
 }
 
 .white-section {
@@ -120,7 +120,7 @@ p {
 #qualification {
   background-color: #eff8ff;
   padding: 10% 2%;
-  line-height: 3;
+  line-height: 2;
   font-size: 1.1rem;
 }
 
@@ -149,12 +149,15 @@ p {
 }
 
 /*-----------  Footer ----------- */
-
-.footer-icons {
-  margin: 20px 10px;
+#footer {
+  padding: 25px 0 25px;
 }
 
-/* Contact */
+.footer-icons {
+  margin: 15px 10px;
+}
+
+/*-----------  Contact -----------*/
 .contact-title {
   padding-bottom: 3%;
 }
