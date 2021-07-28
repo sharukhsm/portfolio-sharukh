@@ -52,6 +52,7 @@ p {
 }
 
 .navbar-brand {
+  visibility: hidden;
   font-family: "Ubuntu", sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
