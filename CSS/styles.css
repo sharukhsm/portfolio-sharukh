@@ -127,15 +127,11 @@ p {
   background-color: #eff8ff;
   padding: 10% 2%;
   line-height: 2;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 .qualification-title {
   padding-bottom: 20px;
-}
-
-.edu-work {
-  padding-right: 5%;
 }
 
 /*-----------  Projects -----------*/
