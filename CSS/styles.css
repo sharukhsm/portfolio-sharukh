@@ -134,6 +134,10 @@ p {
   padding-bottom: 20px;
 }
 
+.edu {
+  padding-bottom: 5rem;
+}
+
 /*-----------  Projects -----------*/
 #projects {
   padding: 5% 10%;
