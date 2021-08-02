@@ -90,6 +90,11 @@ p {
   color: #fff;
 }
 
+/* Space between buttons */
+.btn-outline-light {
+  margin-left: 10px;
+}
+
 /*----------- Features section -----------*/
 #features {
   position: relative;
