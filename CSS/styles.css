@@ -67,8 +67,8 @@ p {
   font-family: "Montserrat-Light", sans-serif;
 }
 
-/* Download Buttons */
-.download-button {
+/* Normal Button(Github) */
+.normal-button {
   margin: 5% 3% 5% 0;
 }
 
