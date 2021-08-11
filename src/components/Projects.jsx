@@ -43,7 +43,6 @@ function Projects() {
 
               <a
                 href="https://l1jq0.csb.app/"
-                target="_blank"
                 class="btn btn-lg btn-block btn-dark"
                 itemprop="url"
               >
@@ -65,7 +64,6 @@ function Projects() {
 
               <a
                 href="https://sharukhsm.github.io/Restaurant-landing-page/"
-                target="_blank"
                 class="btn btn-lg btn-block btn-dark"
                 itemprop="url"
               >
@@ -92,7 +90,6 @@ function Projects() {
 
               <a
                 href="https://w54wd.csb.app/"
-                target="_blank"
                 class="btn btn-lg btn-block btn-dark"
                 itemprop="url"
               >
@@ -118,7 +115,6 @@ function Projects() {
 
               <a
                 href="https://sharukhsm.github.io/Audio-Player/"
-                target="_blank"
                 class="btn btn-lg btn-block btn-dark"
                 itemprop="url"
               >
