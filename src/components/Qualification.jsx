@@ -2,28 +2,28 @@ import React from "react";
 
 function Qualification() {
   return (
-    <div id="qualification" class="white-section">
-      <div class="row">
-        <div class="col-lg-6 edu">
-          <i class="fas fa-graduation-cap fa-3x"></i>
-          <h1 class="qualification-title">Education </h1>
+    <div id="qualification" className="white-section">
+      <div className="row">
+        <div className="col-lg-6 edu">
+          <i className="fas fa-graduation-cap fa-3x"></i>
+          <h1 className="qualification-title">Education </h1>
           <ul>
             <li>
               Sri krishna college of engineering & technology - Coimbaore - B.E.
-              Electronics and communication engineering| Class of 2019
+              Electronics and communication engineering| className of 2019
             </li>
             <li>
               Sri sowdeswari vidyalaya - Coimbaore - High School | Mathematics
-              and Computer science group | Class of 2015
+              and Computer science group | className of 2015
             </li>
           </ul>
         </div>
 
         {/* <!-- Work Experience --> */}
-        <div class="col-lg-6">
-          <i class="fas fa-briefcase fa-3x"></i>
-          <h1 class="qualification-title">Work experience</h1>
-          <table class="table">
+        <div className="col-lg-6">
+          <i className="fas fa-briefcase fa-3x"></i>
+          <h1 className="qualification-title">Work experience</h1>
+          <table className="table">
             <thead>
               <tr>
                 <th scope="col">Dates</th>
