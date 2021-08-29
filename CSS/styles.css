@@ -172,12 +172,10 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 50vh; */
-  font-size: 100rem;
-  background-color: #fff;
   flex-direction: column;
-  line-height: 2;
-  font-size: 1.3rem;
+  height: 50vh;
+  background-color: #fff;
+  line-height: 1.5;
 }
 
 /*-----------  Media Queries ----------- */
@@ -196,5 +194,8 @@ p {
   }
   .edu-work {
     font-size: 1.7rem;
+  }
+  .main-about {
+    font-size: 200rem;
   }
 }
