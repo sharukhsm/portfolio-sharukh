@@ -12,10 +12,6 @@ h6 {
   font-family: "Montserrat-Bold", sans-serif;
 }
 
-p {
-  font-size: 1.1rem;
-}
-
 /* Containers */
 .container-fluid {
   padding: 7% 15%;
@@ -81,12 +77,11 @@ p {
 /* Title Image */
 .title-image {
   width: 60%;
-  /* position: absolute; */
-  /* right: 30%; */
 }
 
 #title p {
   color: #fff;
+  font-size: 1.2rem;
 }
 
 /* Space between buttons */
@@ -115,11 +110,6 @@ p {
 .features-logo:hover {
   color: #ff4c68;
 }
-
-/* Content
-p {
-  color: #8f8f8f;
-} */
 
 /*-----------  Qualification -----------*/
 #qualification {
@@ -152,6 +142,10 @@ p {
   padding: 3% 2%;
 }
 
+#projects p {
+  font-size: 1.2rem;
+}
+
 /*-----------  Footer ----------- */
 #footer {
   padding: 25px 0 25px;
@@ -167,13 +161,64 @@ p {
 }
 
 /*-----------  About -----------*/
-.main-about {
+
+#about {
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #fff;
-  line-height: 1.4;
+}
+
+/* About h1 */
+.gradient-text {
+  background-image: linear-gradient(to right, yellow, #61b6cd);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 3rem;
+}
+
+.big-type {
+  /* Copied almost wholesale from the Apple site CSS; changed the font-stack */
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 500; /* Nice, chunky, bold! */
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.masked-copy {
+  /* This is it! Magic: */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+}
+
+.masked-copy h2 {
+  color: white;
+  display: inline;
+  /* Get the font sizes and other features from those set on the parent */
+  font: inherit;
+}
+
+.masked-copy p {
+  display: inline;
+}
+
+.texture-orange {
+  /* Set the text color to a solid, in case our super cool effects don't work.  */
+  color: #e5895f;
+
+  /* 
+  The Apple stylesheet supplies a `background-repeat: no-repeat;` rule here. 
+  You can do the same, as long as your background image
+  is at least as large as your text will be. Otherwise, 
+  text that falls outside of the background image will be 
+  invisible, and that's not good. 
+  */
+  /* background-repeat: no-repeat; */
+
+  /* Also, hey, I hate hot-linking this, but uh... I'll upload my own asset soon? 😬 */
+  background-image: url("https://www.apple.com/v/iphone-xr/a/images/overview/copy_texture_4_large.jpg");
 }
 
 /*-----------  Media Queries ----------- */
@@ -187,13 +232,10 @@ p {
     position: static;
     transform: rotate(0);
   }
-  p {
+  #title p {
     font-size: 1.7rem;
   }
-  .edu-work {
+  #projects p {
     font-size: 1.7rem;
-  }
-  .about-para {
-    font-size: 1.1rem;
   }
 }
