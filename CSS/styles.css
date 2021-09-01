@@ -238,4 +238,9 @@ h6 {
   #projects p {
     font-size: 1.7rem;
   }
+  #about p {
+    /* font-size: 1.7rem;
+    line-height: 0.1; */
+    width: 100%;
+  }
 }
