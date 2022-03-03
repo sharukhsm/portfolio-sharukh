@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -19,7 +23,7 @@ h6 {
 
 /* Sections */
 .colored-section {
-  background-color: #ff4c68;
+  background-color: #4075f0;
   color: #fff;
 }
 
@@ -42,9 +46,9 @@ h6 {
 }
 
 /*-----------  Navigation Bar ----------- */
-.navbar {
-  padding: 0 0 4.5rem;
-}
+/* .navbar {
+  padding: 0 0 1.6rem;
+} */
 
 .navbar-brand {
   visibility: hidden;
@@ -68,10 +72,10 @@ h6 {
 }
 
 /*-----------  Title Section ----------- */
-
 #title .container-fluid {
-  padding: 3% 15%;
+  padding: 7% 15%;
   text-align: left;
+  margin-top: 86px;
 }
 
 /* Title Image */
@@ -103,12 +107,12 @@ h6 {
 }
 /* Icon */
 .features-logo {
-  color: #ef8172;
+  color: #333333;
   margin-bottom: 1rem;
 }
 
 .features-logo:hover {
-  color: #ff4c68;
+  color: #4075f0;
 }
 
 /*-----------  Qualification -----------*/
@@ -133,7 +137,7 @@ h6 {
 }
 
 .tech-logo {
-  color: #ff4c68;
+  color: #4075f0;
   padding: 10% 2%;
 }
 
