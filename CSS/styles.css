@@ -64,6 +64,10 @@ h6 {
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat-Light", sans-serif;
+  color: #4075f0;
+}
+.nav-link:hover {
+  color: #4075f0;
 }
 
 /* Normal Button(Github) */
