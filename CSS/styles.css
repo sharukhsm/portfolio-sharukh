@@ -92,6 +92,8 @@ h6 {
   font-size: 1.2rem;
 }
 
+
+
 /* Space between buttons */
 .btn-outline-light {
   margin-left: 10px;
@@ -161,6 +163,10 @@ h6 {
 
 .footer-icons {
   margin: 15px 10px;
+}
+
+a {
+  color: #fff;
 }
 
 /*-----------  Contact -----------*/
