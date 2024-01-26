@@ -267,12 +267,6 @@ a {
 
 
 /*-----------  Typing animation on name ----------- */
-.wrapper {
- 
-  /*This part is important for centering*/
-  display: grid;
-  
-}
 .typing-animation {
   width: 7.5ch;
   animation: typing .8s steps(8), blink .5s step-end infinite alternate;
