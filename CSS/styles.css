@@ -35,8 +35,8 @@ h6 {
 .big-heading {
   font-family: "Montserrat", sans-serif;
   color: #fff;
-  font-size: 2.1rem;
-  font-weight: 900;
+  font-size: 1.9rem;
+  font-weight: 800;
 }
 
 .section-heading {
@@ -261,5 +261,36 @@ a {
     /* font-size: 1.7rem;
     line-height: 0.1; */
     width: 100%;
+  }
+}
+
+
+
+.wrapper {
+  height: 100vh;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 20.5ch;
+  animation: typing 1s steps(20), blink 1s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
   }
 }
