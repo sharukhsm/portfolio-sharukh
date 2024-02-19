@@ -32,22 +32,22 @@
 const bodyCopy = {
   section_about_title: "About Me",
   section_about_p_1:
-    "I am a Software engineer with 4 years of commercial experience, specializing in creating engaging andresponsive web applications. I'm a recent Graduate student at the University of Cincinnati. I ❤️ problemsolving, photography and building computers.",
+    "I am a Software engineer with 4 years of commercial experience, specializing in creating engaging and responsive web applications. I'm a recent Graduate student at the University of Cincinnati. I ❤️ problem solving, photography and building computers.",
   section_about_p_2:
     "My work is focused on delivering responsive and lightweight solutions, ensuring seamless user experiences across various devices and browsers. I take pride in documenting each project meticulously, enabling easy maintenance and scalability for your website or web application as your company grows.",
 
   section_experience_title: "Experience",
   section_experience_p_1: "I have a proven track record in:",
   section_experience_li_1:
-    "Creating pixel-perfect and responsive user interfaces using HTML, CSS, and JavaScript.",
+    "Creating pixel-perfect and responsive user interfaces using React, JavaScript, HTML and CSS.",
   section_experience_li_2:
-    "Integrating custom designs into content management systems (CMS) like WordPress and Drupal.",
+    "Collaborating with cross-functional teams, including designers, backend developers, and project managers.",
   section_experience_li_3:
     "Building data visualizations that present complex information in an intuitive and visually appealing manner.",
   section_experience_li_4:
     "Optimizing website performance to achieve faster loading times and better user engagement.",
   section_experience_li_5:
-    "Collaborating with cross-functional teams, including designers, backend developers, and project managers.",
+    "Integrating custom designs into content management systems (CMS) like Sitecore.",
   section_experience_li_6:
     "Ensuring accessibility standards (WCAG) are met to make web content inclusive for all users.",
 
@@ -64,9 +64,9 @@ const bodyCopy = {
   section_skills_li_5:
     "Understanding of SEO best practices to optimize website visibility in search engines.",
   section_skills_li_6:
-    "Ability to work with design tools such as Adobe XD or Figma to interpret and implement UI/UX designs.",
+    "Ability to work with design tools such as Figma to interpret and implement UI/UX designs.",
   section_skills_li_7:
-    "Continuous learning and keeping up-to-date with the latest trends and technologies in frontend development.",
+    "Continuous learning and keeping up-to-date with the latest trends and technologies in full stack development.",
 
   section_projects_title: "Projects",
   section_projects_p_1: "Some of the projects I have worked on include:",
