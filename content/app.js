@@ -72,7 +72,7 @@ const bodyCopy = {
   section_projects_p_1: "Some of the projects I have worked on include:",
   section_contact_title: "Contact Me",
   section_contact_p_1:
-    "If you are interested in collaborating on frontend development projects or want to discuss opportunities, feel free to reach out:",
+    "If you are interested in collaborating on development projects or want to discuss anything, feel free to reach out:",
   section_contact_li_1:
     "Email: [sharukhsm@gmail.com](mailto:sharukhsm@gmail.com)",
   section_contact_li_2:
