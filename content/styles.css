@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap');
+/* GLOBAL */
+:root {
+	--carolina-blue: #86bbd8;
+	--moss-green: #758e4f;
+	--gold: #ffd500;
+	--gunmetal: #2b303a;
+	--orange-pantone: #f26419;
+	--black: #11161e;
+}
+body {
+	display: grid;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 20px;
+	grid-template-columns: min-content 1fr;
+	margin: 0;
+	padding: 0;
+}
+* {
+	box-sizing: border-box;
+}
+::selection {
+	background: var(--orange-pantone);
+	color: var(--black);
+}
+
+/* NAVIGATION */
+nav {
+	display: none;
+}
+@media (min-width: 700px) {
+	nav {
+		background: var(--gunmetal);
+		display: flex;
+		flex-direction: column;
+		gap: 1em;
+		grid-column-start: 1;
+		grid-column-end: span 1;
+		padding: 2em;
+		z-index: 2;
+	}
+	nav img {
+		border-radius: 50%;
+		height: 150px;
+		position: sticky;
+		top: 2em;
+		width: 150px;
+	}
+	nav ul {
+		display: flex;
+		flex-direction: column;
+		gap: .5em;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		position: sticky;
+		top: calc(150px + 3em);
+	}
+	nav ul li a {
+		color: var(--carolina-blue);
+		text-decoration: none;
+		transition: padding .1s ease, margin .1s ease, background .1s ease;
+	}
+	nav ul li a:hover {
+		text-decoration-line: underline;
+		text-decoration-thickness: 1px;
+		text-underline-offset: 3px;
+	}
+	nav ul li a:focus {
+		border-radius: 3px;
+		outline: 2px dashed;
+	}
+	nav ul li a.current {
+		background: var(--black);
+		border-radius: 8px;
+		color: #fff;
+		padding: 0.2em 0.5em;
+	}
+}
+
+/* BODY CONTENT */
+#content {
+	color: white;
+	grid-column-start: 2;
+	grid-column-end: span 1;
+	padding: 2em;
+	position: relative;
+	z-index: 1;
+}
+@media (min-width: 700px) {
+	#content {
+		padding: 4em;
+	}
+}
+#content:before {
+	background: radial-gradient(circle at 90% 0%, var(--gunmetal), var(--black));
+	bottom: 0;
+	content: '';
+	display: block;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: -1;
+}
+#content a {
+	color: var(--carolina-blue);
+}
+#content a:active {
+	color: var(--orange-pantone);
+}
+#content a:focus {
+	border-radius: 4px;
+	outline: 2px dashed;
+}
+#content a:hover {
+	color: var(--orange-pantone);
+	text-decoration: none;
+}
+header {
+	display: flex;
+	flex-direction: column;
+	gap: 0;
+	margin-bottom: 2em;
+}
+@media (min-width: 540px) {
+	header {
+		align-items: start;
+		flex-direction: row;
+		gap: 2em;
+	}
+}
+header img {
+	border-radius: 50%;
+	display: block;
+	height: 150px;
+	width: 150px;
+}
+@media (min-width: 700px) {
+	header img {
+		display: none;
+	}
+}
+h1 {
+	display: flex;
+	flex-direction: column;
+	font-size: 56px;
+	font-weight: 700;
+	margin-top: 0;
+}
+h1 .large {
+	color: var(--orange-pantone);
+}
+h1 .small {
+	color: #ccc;
+	font-size: .5em;
+	font-weight: 400;
+}
+h2 {
+	color: var(--orange-pantone);
+	font-size: 32px;
+	font-weight: 700;
+	margin: 0;
+}
+
+section {
+	margin-bottom: 4em;
+}
+
+/* PROJECTS */
+.card.project {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	margin: 2em 0;
+	min-height: 300px;
+	position: relative;
+}
+@media (min-width: 900px) {
+	.card.project {
+		flex-direction: row;
+		margin-bottom: 4em;
+	}
+}
+.card-img {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 8px;
+	display: block;
+	height: 300px;
+	min-height: 300px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+@media (min-width: 900px) {
+	.card-img {
+		height: calc(100% + 2em);
+		left: 0;
+		top: initial;
+		width: 300px;
+	}
+}
+.card.project:nth-child(even) .card-img {
+	left: initial;
+	right: 0;
+}
+.card-body {
+	background: var(--black);
+	border: 2px solid var(--gunmetal);
+	border-radius: 8px;
+	margin-top: 150px;
+	padding: 1em;
+	position: relative;
+	z-index: 2;
+}
+@media (min-width: 400px) {
+	.card-body {
+		margin-inline-end: 2em;
+		margin-inline-start: 2em;
+	}
+}
+@media (min-width: 900px) {
+	.card-body {
+		left: 200px;
+		margin: 0;
+		width: calc(100% - 200px);
+	}
+}
+.card.project:nth-child(even) .card-body {
+	left: initial;
+}
+.card-title {
+	margin: 0;
+}
+#content a.card-btn {
+	background: var(--gunmetal);
+	border-radius: 8px;
+	color: #fff;
+	display: block;
+	max-width: max-content;
+	padding: .5em 1em;
+	text-decoration: none;
+	transition: background .1s ease;
+}
+#content a.card-btn:active {
+	background: var(--orange-pantone);
+}
+#content a.card-btn:hover {
+	background: var(--orange-pantone);
+	color: var(--black);
+}
+
+#contact ul {
+	padding-inline-start: initial;
+}
+@media (min-width: 540px) {
+	#contact ul {
+		padding-inline-start: initial;
+	}
+}
+
+footer {
+	background: #000;
+	bottom: 0;
+	font-size: 16px;
+	left: 0;
+	right: 0;
+	padding: .5em 1em;
+	position: absolute;
+}
