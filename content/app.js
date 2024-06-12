@@ -1,34 +1,5 @@
 // CONTENT
-// const bodyCopy = {
-// 	section_about_title: 'About Me',
-// 	section_about_p_1: 'Hello! I\'m Ben Jyring, a passionate Geospatial Software Engineer with a strong commitment to reversing climate change through resilient agriculture. With over 3 years of experience in building and deploying high-quality geospatial data solutions, I am eager to contribute my expertise to Regrow\'s mission.',
-// 	section_about_p_2: 'I believe in the power of agriculture to cool the earth and create a sustainable planet. My goal is to leverage my knowledge of geospatial software engineering and tools to deliver scalable solutions that drive positive environmental impact.',
-// 	section_experience_title: 'Experience',
-// 	section_experience_p_1: 'I have a proven track record in:',
-// 	section_experience_li_1: 'Designing, building, and deploying scalable geospatial APIs, services, and data pipelines primarily in Python.',
-// 	section_experience_li_2: 'Creating and deploying data processing workflows using tools like Airflow and Argo.',
-// 	section_experience_li_3: 'Working with Python web frameworks such as FastAPI, Flask, and Django to develop REST APIs.',
-// 	section_experience_li_4: 'Deploying apps/services on major enterprise cloud platforms like AWS, GCP, and Azure.',
-// 	section_experience_li_5: 'Profiling, debugging, and optimizing Python code for performance.',
-// 	section_experience_li_6: 'Collaborating with cross-functional teams and mentoring other engineers.',
-// 	section_skills_title: 'Skills',
-// 	section_skills_p_1: 'My key skills include:',
-// 	section_skills_li_1: 'Geospatial software engineering using tools and libraries like rasters, gdal, rasterio, and qgis.',
-// 	section_skills_li_2: 'Creating and deploying data processing workflows with Airflow, Argo, and other technologies.',
-// 	section_skills_li_3: 'Proficiency in Python and systems programming in the Linux environment.',
-// 	section_skills_li_4: 'Working with relational databases (MySQL, Postgres) and document databases (MongoDB).',
-// 	section_skills_li_5: 'Experience with Docker for building and scheduling containers.',
-// 	section_skills_li_6: 'Working in Agile development environments.',
-// 	section_skills_li_7: 'Excellent English language presentation and communication skills.',
-// 	section_projects_title: 'Projects',
-// 	section_projects_p_1: 'Some of the projects I have worked on include:',
-// 	section_contact_title: 'Contact Me',
-// 	section_contact_p_1: 'If you are interested in collaborating on climate tech projects or want to discuss opportunities, feel free to reach out:',
-// 	section_contact_li_1: 'Email: [benjyring@tutanota.com](mailto:benjyring@tutanota.com)',
-// 	section_contact_li_2: 'LinkedIn: [linkedin.com/in/ben-jyring](https://www.linkedin.com/in/ben-jyring)',
-// 	section_contact_li_3: 'GitHub: [github.com/benjyring](https://github.com/benjyring)',
-// 	footer: '&copy; %YEAR% Ben Jyring. All rights reserved.'
-// };
+
 const bodyCopy = {
   section_about_title: "About Me",
   section_about_p_1:
@@ -76,8 +47,6 @@ const bodyCopy = {
   section_contact_li_1:
     "Email: [sharukhsm@gmail.com](mailto:sharukhsm@gmail.com)",
   section_contact_li_2:
-    "LinkedIn: [linkedin.com/in/sharukhsm](https://www.linkedin.com/in/sharukhsm)",
-  section_contact_li_3:
     "GitHub: [github.com/sharukhsm](https://github.com/sharukhsm)",
   footer: "&copy; %YEAR% Mohamed Sharukh. All rights reserved.",
 };
